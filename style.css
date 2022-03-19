@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(44, 43, 43);
+    max-width: 100%;
+    
+}
+.team{
+    color: aliceblue;
+    margin-top: 20px;
+    margin-left: 20px;
+    max-width: 100%;
+}
+.main{
+    background-color: beige;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+}
+.header-text{
+    margin-top: 50px;
+}
+.who{
+    margin-top: 50px;
+}
+.we-text{
+    width: 400px;
+    height: 100px;
+    padding: 5px;
+    
+}
+.images{
+    display: flex;
+    background-color: beige;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 0px;     
+    max-width: 100%;  
+    flex-wrap: wrap;         
+    
+}
+.member-job{
+    vertical-align: middle;
+        transform: rotate(45deg) translateX(180px);
+}
+img {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    align-items: center;
+    vertical-align: middle;
+}
+.images .member-job{
+    white-space: nowrap;
+    position: absolute;
+    margin-top: 6rem;
+    transform-origin: 0 0;
+    transform: rotate(90deg);
+}
+.member-name{
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 20px;
+}
+.image2{
+    width: 300px;
+    height: 300px;
+    margin-top: 100px;
+}
+footer{
+    color: aliceblue;
+    text-align: center;
+    margin: 20px;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+      max-width: 600px;
+      height: 500px;
+    }
+
+  }
